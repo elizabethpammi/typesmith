@@ -49,13 +49,7 @@ export default function App() {
   return (
     <div className="shell">
       <header className="masthead">
-        <div className="brand">
-          <span className="brand-mark">T</span>
-          <div>
-            <h1 className="wordmark">Typesmith</h1>
-            <p className="tagline">Paste an API contract. Forge React-ready code.</p>
-          </div>
-        </div>
+        <h1 className="tagline">Paste an API contract. Get React-ready code.</h1>
         <nav className="mast-links">
           <a href="https://github.com/elizabethpammi/typesmith" target="_blank" rel="noreferrer">
             GitHub

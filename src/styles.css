@@ -52,36 +52,12 @@ body {
   gap: 16px;
 }
 
-.brand {
-  display: flex;
-  align-items: center;
-  gap: 14px;
-}
-
-.brand-mark {
-  display: grid;
-  place-items: center;
-  width: 46px;
-  height: 46px;
-  border-radius: 10px;
-  background: #111111;
-  color: #ffffff;
-  font-family: var(--heading);
-  font-weight: 700;
-  font-size: 26px;
-}
-
-.wordmark {
-  font-family: var(--heading);
-  font-weight: 700;
-  font-size: 28px;
-  letter-spacing: -0.01em;
-}
-
 .tagline {
-  color: var(--dim);
-  font-size: 13.5px;
-  margin-top: -2px;
+  font-family: var(--heading);
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: -0.01em;
+  color: var(--text);
 }
 
 .mast-links a {
@@ -580,8 +556,8 @@ body {
     grid-template-columns: 1fr;
   }
 
-  .wordmark {
-    font-size: 24px;
+  .tagline {
+    font-size: 18px;
   }
 
   .masthead {
